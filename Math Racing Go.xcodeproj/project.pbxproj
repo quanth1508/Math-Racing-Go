@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F001DBD2631CB48003788A4 /* InterfacePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F001DBC2631CB48003788A4 /* InterfacePlayerViewController.swift */; };
+		6F1FF6B926451EF8002FDBCE /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1FF6AC26451EEE002FDBCE /* SQLite.framework */; };
+		6F1FF6BA26451F00002FDBCE /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1FF6AC26451EEE002FDBCE /* SQLite.framework */; };
+		6F1FF6BB26451F00002FDBCE /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1FF6AC26451EEE002FDBCE /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6FA34F67264256050046C0F8 /* Correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6FA34F64264256050046C0F8 /* Correct.mp3 */; };
+		6FA34F68264256050046C0F8 /* Level.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6FA34F65264256050046C0F8 /* Level.mp3 */; };
+		6FA34F69264256050046C0F8 /* Wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6FA34F66264256050046C0F8 /* Wrong.mp3 */; };
+		6FD08F522628252700063E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD08F512628252700063E61 /* AppDelegate.swift */; };
+		6FD08F542628252700063E61 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD08F532628252700063E61 /* MainViewController.swift */; };
+		6FD08F572628252700063E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD08F552628252700063E61 /* Main.storyboard */; };
+		6FD08F592628252800063E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD08F582628252800063E61 /* Assets.xcassets */; };
+		6FD08F5C2628252800063E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD08F5A2628252800063E61 /* LaunchScreen.storyboard */; };
+		6FFC3F88262EF4BB00C636C8 /* RadioButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC3F87262EF4BB00C636C8 /* RadioButtonController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F1FF6AB26451EEE002FDBCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1FF6A126451EEE002FDBCE /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		6F1FF6AD26451EEE002FDBCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1FF6A126451EEE002FDBCE /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		6F1FF6AF26451EEE002FDBCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1FF6A126451EEE002FDBCE /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		6F1FF6B126451EEE002FDBCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1FF6A126451EEE002FDBCE /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		6F1FF6B326451EEE002FDBCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1FF6A126451EEE002FDBCE /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		6F1FF6B526451EEE002FDBCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1FF6A126451EEE002FDBCE /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		6F1FF6B726451EEE002FDBCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1FF6A126451EEE002FDBCE /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		6F1FF6BC26451F00002FDBCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F1FF6A126451EEE002FDBCE /* SQLite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE247AD21C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6FF5909A263FF4F700E376B1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6F1FF6BB26451F00002FDBCE /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6F001DBC2631CB48003788A4 /* InterfacePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfacePlayerViewController.swift; sourceTree = "<group>"; };
+		6F1FF6A126451EEE002FDBCE /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "Math Racing Go/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		6FA34F64264256050046C0F8 /* Correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Correct.mp3; sourceTree = "<group>"; };
+		6FA34F65264256050046C0F8 /* Level.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Level.mp3; sourceTree = "<group>"; };
+		6FA34F66264256050046C0F8 /* Wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wrong.mp3; sourceTree = "<group>"; };
+		6FD08F4E2628252700063E61 /* Math Racing Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Math Racing Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD08F512628252700063E61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FD08F532628252700063E61 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6FD08F562628252700063E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FD08F582628252800063E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FD08F5B2628252800063E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FD08F5D2628252800063E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFC3F87262EF4BB00C636C8 /* RadioButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FD08F4B2628252700063E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1FF6BA26451F00002FDBCE /* SQLite.framework in Frameworks */,
+				6F1FF6B926451EF8002FDBCE /* SQLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F1FF6A226451EEE002FDBCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F1FF6AC26451EEE002FDBCE /* SQLite.framework */,
+				6F1FF6AE26451EEE002FDBCE /* SQLiteTests iOS.xctest */,
+				6F1FF6B026451EEE002FDBCE /* SQLite.framework */,
+				6F1FF6B226451EEE002FDBCE /* SQLiteTests Mac.xctest */,
+				6F1FF6B426451EEE002FDBCE /* SQLite.framework */,
+				6F1FF6B626451EEE002FDBCE /* SQLiteTests tvOS.xctest */,
+				6F1FF6B826451EEE002FDBCE /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F344BB5263AF09D0031DBE5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6FA34F64264256050046C0F8 /* Correct.mp3 */,
+				6FA34F65264256050046C0F8 /* Level.mp3 */,
+				6FA34F66264256050046C0F8 /* Wrong.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		6FD08F452628252700063E61 = {
+			isa = PBXGroup;
+			children = (
+				6FD08F502628252700063E61 /* Math Racing Go */,
+				6FD08F4F2628252700063E61 /* Products */,
+				6F1FF6A126451EEE002FDBCE /* SQLite.xcodeproj */,
+				6FF59094263FF4E100E376B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FD08F4F2628252700063E61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FD08F4E2628252700063E61 /* Math Racing Go.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FD08F502628252700063E61 /* Math Racing Go */ = {
+			isa = PBXGroup;
+			children = (
+				6FD08F512628252700063E61 /* AppDelegate.swift */,
+				6FFC3F87262EF4BB00C636C8 /* RadioButtonController.swift */,
+				6FD08F532628252700063E61 /* MainViewController.swift */,
+				6FD08F552628252700063E61 /* Main.storyboard */,
+				6FD08F582628252800063E61 /* Assets.xcassets */,
+				6F344BB5263AF09D0031DBE5 /* Sounds */,
+				6FD08F5A2628252800063E61 /* LaunchScreen.storyboard */,
+				6FD08F5D2628252800063E61 /* Info.plist */,
+				6F001DBC2631CB48003788A4 /* InterfacePlayerViewController.swift */,
+			);
+			path = "Math Racing Go";
+			sourceTree = "<group>";
+		};
+		6FF59094263FF4E100E376B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FD08F4D2628252700063E61 /* Math Racing Go */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD08F602628252800063E61 /* Build configuration list for PBXNativeTarget "Math Racing Go" */;
+			buildPhases = (
+				6FD08F4A2628252700063E61 /* Sources */,
+				6FD08F4B2628252700063E61 /* Frameworks */,
+				6FD08F4C2628252700063E61 /* Resources */,
+				6FF5909A263FF4F700E376B1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F1FF6BD26451F00002FDBCE /* PBXTargetDependency */,
+			);
+			name = "Math Racing Go";
+			productName = FastCaculator;
+			productReference = 6FD08F4E2628252700063E61 /* Math Racing Go.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FD08F462628252700063E61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = QuanTran;
+				TargetAttributes = {
+					6FD08F4D2628252700063E61 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 6FD08F492628252700063E61 /* Build configuration list for PBXProject "Math Racing Go" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FD08F452628252700063E61;
+			productRefGroup = 6FD08F4F2628252700063E61 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6F1FF6A226451EEE002FDBCE /* Products */;
+					ProjectRef = 6F1FF6A126451EEE002FDBCE /* SQLite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6FD08F4D2628252700063E61 /* Math Racing Go */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6F1FF6AC26451EEE002FDBCE /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 6F1FF6AB26451EEE002FDBCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6F1FF6AE26451EEE002FDBCE /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 6F1FF6AD26451EEE002FDBCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6F1FF6B026451EEE002FDBCE /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 6F1FF6AF26451EEE002FDBCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6F1FF6B226451EEE002FDBCE /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 6F1FF6B126451EEE002FDBCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6F1FF6B426451EEE002FDBCE /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 6F1FF6B326451EEE002FDBCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6F1FF6B626451EEE002FDBCE /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 6F1FF6B526451EEE002FDBCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6F1FF6B826451EEE002FDBCE /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 6F1FF6B726451EEE002FDBCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FD08F4C2628252700063E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD08F5C2628252800063E61 /* LaunchScreen.storyboard in Resources */,
+				6FD08F592628252800063E61 /* Assets.xcassets in Resources */,
+				6FA34F69264256050046C0F8 /* Wrong.mp3 in Resources */,
+				6FD08F572628252700063E61 /* Main.storyboard in Resources */,
+				6FA34F68264256050046C0F8 /* Level.mp3 in Resources */,
+				6FA34F67264256050046C0F8 /* Correct.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FD08F4A2628252700063E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD08F542628252700063E61 /* MainViewController.swift in Sources */,
+				6FFC3F88262EF4BB00C636C8 /* RadioButtonController.swift in Sources */,
+				6F001DBD2631CB48003788A4 /* InterfacePlayerViewController.swift in Sources */,
+				6FD08F522628252700063E61 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F1FF6BD26451F00002FDBCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite iOS";
+			targetProxy = 6F1FF6BC26451F00002FDBCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FD08F552628252700063E61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FD08F562628252700063E61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FD08F5A2628252800063E61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FD08F5B2628252800063E61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FD08F5E2628252800063E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FD08F5F2628252800063E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FD08F612628252800063E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FYG332XJD7;
+				INFOPLIST_FILE = "Math Racing Go/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "QuanTran.Math-Racing-Go";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FD08F622628252800063E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FYG332XJD7;
+				INFOPLIST_FILE = "Math Racing Go/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "QuanTran.Math-Racing-Go";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FD08F492628252700063E61 /* Build configuration list for PBXProject "Math Racing Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD08F5E2628252800063E61 /* Debug */,
+				6FD08F5F2628252800063E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD08F602628252800063E61 /* Build configuration list for PBXNativeTarget "Math Racing Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD08F612628252800063E61 /* Debug */,
+				6FD08F622628252800063E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FD08F462628252700063E61 /* Project object */;
+}
