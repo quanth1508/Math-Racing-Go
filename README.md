@@ -1,9 +1,10 @@
 # MathRacingGo
 
-MathRacingGo is an application that helps to improve the user's calculation speed effectively. It is very simple to do this 2 steps are required:
+MathRacingGo is an application that helps to improve the user's calculation speed effectively. It is very simple to do this 3 steps are required:
 
 1. Choose a level to start practicing
-2. Choose Play button
+2. Click Play button
+3. Click True or False depending on the calculation given
 
 ## Screenshots
 
